@@ -1,0 +1,806 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="keywords" content="HTML, CSS" />
+    <meta name="description" content="BLEHAOPHIP" />
+    <title>Document</title>
+    <style>
+      #table1,
+      td,
+      th {
+        border: 1px solid black;
+        border-collapse: collapse;
+        padding: 5px;
+      }
+      #table1 {
+        background-color: cornflowerblue;
+      }
+      td {
+        background-color: darkgoldenrod;
+      }
+      th {
+        background-color: rgb(175, 68, 68);
+      }
+    </style>
+  </head>
+  <body>
+    <caption>
+      Tags and corresponding non-global attributes
+    </caption>
+    <table id="table1">
+      <thead>
+        <tr>
+          <th>Description</th>
+          <th>Tag</th>
+          <th>Attribute(s)</th>
+          <th>Description</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Defines the document type</td>
+          <td>&lt;!DOCTYPE&gt;</td>
+          <td>only global</td>
+          <td>see global attribute table,</td>
+        </tr>
+        <tr>
+          <td>Defines an HTML document</td>
+          <td>&lt;html&gt;</td>
+          <td></td>
+          <td> 	</td>
+        </tr>
+        <tr>
+          <td>Contains metadata/information for the document</td>
+          <td>&lt;head&gt;</td>
+          <td></td>
+          <td> </td>
+        </tr>
+        <tr>
+          <td>Defines a title for the document</td>
+          <td>&lt;title&gt;</td>
+          <td></td>
+          <td> </td>
+        </tr>
+        <tr>
+          <td>defines the documents body</td>
+          <td>&lt;body&gt;</td>
+          <td>onafterprint, onbeforeprint, onbeforeload, onerror, onhashchange, onload, onoffline, ononline, onpagehide, onpageshow, onpopstate, onresize, onstorage, onunload </td>
+          <td> 	Script to be run after the document is printed, Script to be run before the document is printed, Script to be run when the document is about to be unloaded, Script to be run when an error occurs,  	Script to be run when there has been changes to the anchor part of the a URL, Script to be run when there has been changes to the anchor part of the a URL, Script to be run when the element is finished loading, Script to be run when the browser starts to work offline, Script to be run when the browser starts to work online, Script to be run when a user navigates away from a page, Script to be run when a user navigates to a page, Script to be run when the window's history changes, Script to be run when the browser window is being resized,  	Script to be run when a Web Storage area is updated, Script to be run when a page has unloaded (or the browser window has been closed)  </td>
+        </tr>
+        <tr>
+          <td>defines html headings</td>
+          <td>&lt;h1&gt; to &lt;h6&gt;</td>
+          <td></td>
+          <td> 	</td>
+        </tr>
+        <tr>
+          <td>Defines a paragraph</td>
+          <td>&gt;p&lt;</td>
+          <td></td>
+          <td> </td>
+        </tr>
+        <tr>
+          <td>Inserts a single line break</td>
+          <td>&lt;br&gt;</td>
+          <td></td>
+          <td> 	</td>
+        </tr>
+        <tr>
+          <td>Defines a thematic change in the content</td>
+          <td>&lt;hr&gt;</td>
+          <td></td>
+          <td> </td>
+        </tr>
+        <tr>
+          <td>defines a comment</td>
+          <td>&lt;!-- --&gt;</td>
+          <td></td>
+          <td> </td>
+        </tr>
+        <tr>
+          <td>
+            defines an acronym, not supported in html5, use &gt;abbr&lt; instead
+          </td>
+          <td>&gt;acronym&lt;</td>
+          <td></td>
+          <td> </td>
+        </tr>
+        <tr>
+          <td>defiines an abbreviation or an acronym</td>
+          <td>&lt;abbr&gt;</td>
+          <td></td>
+          <td> 	d</td>
+        </tr>
+        <tr>
+          <td>
+            Defines contact information for the author/owner of a
+            document/artilce
+          </td>
+          <td>&gt;address&lt;</td>
+          <td></td>
+          <td> 	</td>
+        </tr>
+        <tr>
+          <td>defines bold text</td>
+          <td>&gt;b&lt;</td>
+          <td></td>
+          <td> 	</td>
+        </tr>
+        <tr>
+          <td>
+            isolates a part of text that might be formatted in a different
+            direction from other test outside it
+          </td>
+          <td>&gt;bdi&lt;</td>
+          <td></td>
+          <td> 	</td>
+        </tr>
+        <tr>
+          <td>overrides the current text direction</td>
+          <td>&lt;bdo&gt;</td>
+          <td></td>
+          <td> </td>
+        </tr>
+        <tr>
+          <td>defines big text, not supported in html5 use css instead</td>
+          <td>&lt;big&gt;</td>
+          <td></td>
+          <td> </td>
+        </tr>
+        <tr>
+          <td>defines a section that is quoted from another source</td>
+          <td>&gt;blockquote&lt;</td>
+          <td>cite, </td>
+          <td> 	Specifies a URL which explains the quote/deleted/inserted text,</td>
+        </tr>
+        <tr>
+          <td>
+            defines centered text, not supported in html5, use CSS instead
+          </td>
+          <td>&gt;center&lt;</td>
+          <td></td>
+          <td> </td>
+        </tr>
+        <tr>
+          <td>defines the title of a work</td>
+          <td>&gt;cite&lt;</td>
+          <td>onblur, onchange</td>
+          <td> 	Script to be run when the element loses focus, Script to be run when the value of the element is changed, </td>
+        </tr>
+        <tr>
+          <td>defines a pice of computer code</td>
+          <td>&lt;code&gt;</td>
+          <td></td>
+          <td> </td>
+        </tr>
+        <tr>
+          <td>defines text that has been deleted from a document</td>
+          <td>&gt;del&lt;</td>
+          <td>cite, datetime,</td>
+          <td> 	Specifies a URL which explains the quote/deleted/inserted text,	Specifies the date and time,</td>
+        </tr>
+        <tr>
+          <td>
+            specifies a term that is going to be defined within the content
+          </td>
+          <td>&lt;dfn&gt;</td>
+          <td></td>
+          <td> </td>
+        </tr>
+        <tr>
+          <td>Defines emphasized text</td>
+          <td>&lt; em&gt;</td>
+          <td></td>
+          <td> </td>
+        </tr>
+        <tr>
+          <td>
+            defines font,color, and size for text, not supporeted in html5 use
+            CSS instead
+          </td>
+          <td>&lt;font&gt;</td>
+          <td></td>
+          <td> </td>
+        </tr>
+        <tr>
+          <td>defines a part of text in an alternate voice or mood</td>
+          <td>&lt;i&gt;</td>
+          <td></td>
+          <td> 	</td>
+        </tr>
+        <tr>
+          <td>defines a text that has been inserted into a document</td>
+          <td>&lt;ins&gt;</td>
+          <td>cite, datetime,</td>
+          <td> 	Specifies a URL which explains the quote/deleted/inserted text, Specifies the date and time, </td>
+        </tr>
+        <tr>
+          <td>Defines keyborad input</td>
+          <td>&lt;kbd&gt;</td>
+          <td></td>
+          <td> </td>
+        </tr>
+        <tr>
+          <td>defines marked or highlighted text</td>
+          <td>&lt;mark&gt;</td>
+          <td></td>
+          <td> 	</td>
+        </tr>
+        <tr>
+          <td>defines a scalar measurement within a known range(a guage)</td>
+          <td>&lt;meter&lt;</td>
+          <td>form, high, low, max, min,optimum, value</td>
+          <td>Specifies the name of the form the element belongs to,	Specifies the range that is considered to be a high value,  	Specifies the range that is considered to be a low value,  	Specifies the maximum value, Specifies a minimum value, Specifies what value is the optimal value for the gauge, Specifies the value of the element</td>
+        </tr>
+        <tr>
+          <td>defines preformatted text</td>
+          <td>&lt;pre&gt;</td>
+          <td></td>
+          <td> </td>
+        </tr>
+        <tr>
+          <td>represents the progress of a task</td>
+          <td>&lt;progress&gt;</td>
+          <td>max, value</td>
+          <td> 	Specifies the maximum value, Specifies the value of the element </td>
+        </tr>
+        <tr>
+          <td>defines a short quotation</td>
+          <td>&lt;q&gt;</td>
+          <td>cite, </td>
+          <td> 	Specifies a URL which explains the quote/deleted/inserted text, </td>      
+        </tr>
+        <tr>
+          <td>
+            defines what to show in browsers that do not support ruby
+            annotations
+          </td>
+          <td>&lt;rp&gt;</td>
+          <td></td>
+          <td> 	</td>
+        </tr>
+        <tr>
+          <td>
+            defines an explanation/pronunciation of characters (for east asian
+            typography)
+          </td>
+          <td>&lt;rt&gt;</td>
+          <td></td>
+          <td> </td>
+        </tr>
+        <tr>
+          <td>defines a ruby annottion (for east asian typography)</td>
+          <td>&lt;ruby&lt;</td>
+          <td></td>
+          <td> 	</td>
+        </tr>
+        <tr>
+          <td>defines text that is no longer correct</td>
+          <td>&gt;s&lt;</td>
+          <td></td>
+          <td> 	</td>
+        </tr>
+        <tr>
+          <td>defines sample output from a computer program</td>
+          <td>&lt;samp&gt;</td>
+          <td></td>
+          <td> </td>
+        </tr>
+        <tr>
+          <td>defines smaller text</td>
+          <td>&lt;small&gt;</td>
+          <td></td>
+          <td> </td>
+        </tr>
+        <tr>
+          <td>
+            defines striketrough text,not supported in html5, use&lt;del&gt; or
+            &lt;s&gt; instead
+          </td>
+          <td>&lt;strike&gt;</td>
+          <td></td>
+          <td> </td>
+        </tr>
+        <tr>
+          <td>defines important text</td>
+          <td>&lt;strong&gt;</td>
+          <td></td>
+          <td> </td>
+        </tr>
+        <tr>
+          <td>defines subscripted text</td>
+          <td>&lt;sub&gt;</td>
+          <td></td>
+          <td> 	</td>
+        </tr>
+        <tr>
+          <td>defines superscripted text</td>
+          <td>&lt;sup&gt;</td>
+          <td></td>
+          <td> </td>
+        </tr>
+        <tr>
+          <td></td>
+            defines a container for content that should be hidden when the page
+            loads
+          </td>
+          <td>&lt;template&gt;</td>
+          <td></td>
+          <td> 	</td>
+        </tr>
+        <tr>
+          <td>defines a specific time (or datetime)</td>
+          <td>&lt;time&gt;</td>
+          <td>datetime, </td>
+          <td> 	Specifies the date and time, </td>
+        </tr>
+        <tr>
+          <td>defines teletype text,not supported in html5 use css instead</td>
+          <td>&lt;tt&gt;</td>
+          <td></td>
+          <td> </td>
+        </tr>
+        <tr>
+          <td>
+            define some text that is unarticulated and styled different;y from
+            normal text
+          </td>
+          <td>&lt;u&gt;</td>
+          <td></td>
+          <td> </td>
+        </tr>
+        <tr>
+          <td>defines a variable</td>
+          <td>&lt;var&gt;</td>
+          <td></td>
+          <td> </td>
+        </tr>
+        <tr>
+          <td>defines a possible line-break</td>
+          <td>&lt;wbr&gt;</td>
+          <td></td>
+          <td> </td>
+        </tr>
+        <tr>
+          <td>defines a html form for user input</td>
+          <td>&gt;form&lt;</td>
+          <td>accept-charset,action,autocomplete, enctype, method, name, novalidate, onrest, rel, target </td>
+          <td>Specifies the character encodings that are to be used for the form submission, Specifies where to send the form-data when a form is submitted, specifies whether the &lt;form&gt; or the &lt;input&gt; element should have autocomplete enabled,  	Specifies how the form-data should be encoded when submitting it to the server (only for method="post"), Specifies the HTTP method to use when sending form-data, Specifies the name of the element, Specifies that the form should not be validated when submitted,  	Script to be run when a reset button in a form is clicked, Specifies the relationship between the current document and the linked document,  	Specifies the target for where to open the linked document or where to submit the form</td>
+        </tr>
+        <tr>
+          <td>defines an input control</td>
+          <td>&lt;input&gt;</td>
+          <td>accept, alt, autocomplete, autofocus, checked, dimane, disabled, form, formation, form, list, max, maxlength, min, multiple, name, onload, onsearch, pattern, placeholder, readonly, required, size, src, step, type, width</td>
+          <td>Specifies the types of files that the server accepts (only for type="file"),Specifies an alternate text when the original element fails to display,specifies whether the &lt;form&gt; or the &lt;input&gt; element should have autocomplete enabled, Specifies that the element should automatically get focus when the page loads,  	Specifies that an &lt;input&gt; element should be pre-selected when the page loads (for type="checkbox" or type="radio"), Specifies that the text direction will be submitted, Specifies that the text direction will be submitted, Specifies that the specified element/group of elements should be disabled, Specifies the name of the form the element belongs to,  	Specifies where to send the form-data when a form is submitted. Only for type="submit", Specifies the height of the element, Refers to a &lt;datalist&gt; element that contains pre-defined options for an &lt;input&gt; element,  	Specifies the maximum value, Specifies the maximum number of characters allowed in an element, Specifies a minimum value,  	Specifies that a user can enter more than one value, Specifies the name of the element, Script to be run when the element is finished loading, Script to be run when the user writes something in a search field (for &lt;input="search"&gt;),  	Specifies a regular expression that an &lt;input&gt; element's value is checked against, Specifies a short hint that describes the expected value of the element, Specifies that the element is read-only, Specifies that the element must be filled out before submitting the form, Specifies the width, in characters (for &lt;input&gt;) or specifies the number of visible options (for &lt;select&gt;), Specifies the URL of the media file,  	Specifies the legal number intervals for an input field, Specifies the type of element, Specifies the width of the element</td>
+        </tr>
+        <tr>
+          <td>defines a multiline input control(text area)</td>
+          <td>&lt;textarea&gt;</td>
+          <td>autofocus,cols, diname, disabled,form, maxlength, name, placeholder, readonly, required, rows, wrap</td>
+          <td>Specifies that the element should automatically get focus when the page loads, Specifies the visible width of a text area, Specifies that the specified element/group of elements should be disabled,  	Specifies where to send the form-data when a form is submitted. Only for type="submit", Specifies the maximum number of characters allowed in an element, Specifies the name of the element, Specifies a short hint that describes the expected value of the element, Specifies that the element is read-only, Specifies that the element must be filled out before submitting the form,  	Specifies the visible number of lines in a text area, Specifies the width of the element </td>
+        </tr>
+        <tr>
+          <td>defines a clickable button</td>
+          <td>&lt;button&gt;</td>
+          <td>autofocus, disabled, form, formation, name, type, value</td>
+          <td>Specifies that the element should automatically get focus when the page loads, Specifies that the specified element/group of elements should be disabled,Specifies the name of the form the element belongs to, Specifies the name of the form the element belongs to, Specifies the name of the element, Specifies the type of element, Specifies the value of the element </td>
+        </tr>
+        <tr>
+          <td>defines a drop-down list</td>
+          <td>&lt;select&gt;</td>
+          <td>autofocus, form, multiple, name, required </td>
+          <td>Specifies that the element should automatically get focus when the page loadsSpecifies the name of the form the element belongs to,  	Specifies that a user can enter more than one value, Specifies the name of the element, Specifies that the element must be filled out before submitting the form </td>
+        </tr>
+        <tr>
+          <td>defines a group of related options in a drop-down list</td>
+          <td>&lt;optgroup&gt;</td>
+          <td>disabled, label, </td>
+          <td>Specifies that the specified element/group of elements should be disabled, Specifies the title of the text track, </td>
+        </tr>
+        <tr>
+          <td>defines a option in a drop-down list</td>
+          <td>&lt;option&gt;</td>
+          <td>disabled, label, selected, value </td>
+          <td>Specifies that the specified element/group of elements should be disabled, Specifies the title of the text track, Specifies that an option should be pre-selected when the page loads, Specifies the value of the element  </td>
+        </tr>
+        <tr>
+          <td>defines a label for an &lt;input&gt; element</td>
+          <td>&lt;label&gt;</td>
+          <td>for, form, value</td>
+          <td> 	Specifies which form element(s) a label/ is bound to, Specifies the name of the form the element belongs to, Specifies the value of the element</td>
+        </tr>
+        <tr>
+          <td>groups related elements in a form</td>
+          <td>&lt;fieldset&gt;</td>calculation
+          <td>disabled, form, name, </td>
+          <td>Specifies that the specified element/group of elements should be disabled, Specifies the name of the form the element belongs to, Specifies the name of the element,  </td>
+        </tr>
+        <tr>
+          <td>defines a caption for a &lt;fieldset&gt; element</td>
+          <td>&lt;legend&gt;</td>
+          <td></td>
+          <td> </td>
+        </tr>
+        <tr>
+          <td>specifies a list of pre-defined options for input controls</td>
+          <td>&lt;datalist&gt;</td>
+          <td></td>
+          <td> 	</td>
+        </tr>
+        <tr>
+          <td>defines the result of a calculation</td>
+          <td>&lt;output&gt;</td>
+          <td>for, form, name, </td>
+          <td> 	Specifies which form element(s) a label/calculation is bound to, Specifies the name of the form the element belongs to, Specifies the name of the element,   </td>
+        </tr>
+        <tr>
+          <td>defines a window (a frame) in a frameset not supported in html5</td>
+          <td>&lt;frame&gt;</td>
+          <td></td>
+          <td> </td>
+        </tr>
+        <tr>
+          <td>defines a set of frames</td>
+          <td>&lt;frameset&gt;</td>
+          <td></td>
+          <td> </td>
+        <tr>
+          <td>defines an alternate content for users that do not support frames</td>
+          <td>&lt;noframes&gt;</td>
+          <td></td>
+          <td> 	</td>
+        </tr>
+        <tr>
+          <td>defines an inline frame</td>
+          <td>&lt;iframe&gt;></td>
+          <td>height, name, onload, sandbox, src, srcdoc, width </td>
+          <td>Specifies the height of the element, Specifies the name of the element, Script to be run when the element is finished loading,  	Enables an extra set of restrictions for the content in an &lt;iframe&gt;, Specifies the URL of the media file, Specifies the HTML content of the page to show in the &lt;iframe&gt;</iframe>, Specifies the width of the element  </td>
+        </tr>
+        <tr>
+          <td>defines an image</td>
+          <td>&lt;img&gt;</td>
+          <td>alt, height, ismap, onabort, onblur, onchange, onerror, onload, sizes, src, srcset, usemap, width</td>
+          <td>Specifies an alternate text when the original element fails to display, Specifies the height of the element, 	Specifies an image as a server-side image map, Script to be run on abort,  	Script to be run when the element loses focus, Script to be run when the value of the element is changed, Script to be run when an error occurs, Script to be run when the element is finished loading, Specifies the size of the linked resource, Specifies the URL of the media file,  	Specifies the URL of the image to use in different situations, Specifies an image as a client-side image map, Specifies the width of the element</td>
+        </tr>
+        <tr>
+          <td>defines a client-side image map</td>
+          <td>&lt;map&gt;</td>
+          <td>alt, name,</td>
+          <td>Specifies an alternate text when the original element fails to display, Specifies the name of the element,  </td>
+        </tr>
+        <tr>
+          <td>defines an area inside an image map</td>
+          <td>&lt;area&gt;</td>
+          <td>coords, download, href, hreflang, media, rel, shape, target</td>
+          <td>Specifies the coordinates of the area,  	Specifies that the target will be downloaded when a user clicks on the hyperlink, Specifies the URL of the page the link goes to, Specifies the language of the linked document, Specifies what media/device the linked document is optimized for, Specifies the relationship between the current document and the linked document, Specifies the shape of the area,  	Specifies the target for where to open the linked document or where to submit the form </td>
+        </tr>
+        <tr>
+          <td>used to draw graphics,on the fly, via scripting (usually javascript)</td>
+          <td>&lt;canvas&gt;</td>
+          <td>height, width </td>
+          <td>Specifies the height of the element, Specifies the width of the element</td>
+        </tr>
+        <tr>
+          <td>defines a caption for a &lt;figure&gt; element</td>
+          <td>&lt;figcaption&gt;</td>
+          <td></td>
+          <td> </td>
+       <tr>
+         <td>specifies a self contained content</td>
+         <td>&lt;figure&gt;</td>
+         <td></td>
+         <td> </td>
+       </tr>
+       <tr>
+         <td>defines a container for multiple image resources</td>
+         <td>&lt;picture&gt;</td>
+         <td></td>
+         <td> </td>
+       </tr>
+       <tr>
+         <td>defines a container for SVG graphics</td>
+         <td>&lt;svg&gt;</td>
+         <td></td>
+         <td> </td>
+       </tr>
+       <tr>
+         <td> 	Defines sound content</td>
+         <td>&lt;audio&gt;</td>
+         <td>autoplay, controls, loop, muted, onabort, oncanplay, oncanplaythrough, onended, onerror, onloadeddata, onloadedmetadata, onloadstart, onpause, onplay, onplaying, onprogress, onratechange, onseeked, onseeking, onstalled, onsuspend, ontimeupdate, onvolumechange, onwaiting, preload, src </td>
+         <td>Specifies that the audio/video will start playing as soon as it is ready, 	Specifies that audio/video controls should be displayed (such as a play/pause button etc), Specifies that the audio/video will start over again, every time it is finished,  	Specifies that the audio output of the video should be muted, Script to be run on abort, Script to be run when a file is ready to start playing (when it has buffered enough to begin),  	Script to be run when a file can be played all the way to the end without pausing for buffering, Script to be run when the media has reach the end (a useful event for messages like "thanks for listening"), Script to be run when an error occurs, script to be run when media data is loaded,Script to be run when meta data (like dimensions and duration) are loaded, Script to be run just as the file begins to load before anything is actually loaded, Script to be run when the media is paused either by the user or programmatically, Script to be run when the media has started playing, Script to be run when the media has started playing, Script to be run when the browser is in the process of getting the media data, Script to be run each time the playback rate changes (like when a user switches to a slow motion or fast forward mode), Script to be run when the seeking attribute is set to false indicating that seeking has ended,  	Script to be run when the seeking attribute is set to true indicating that seeking is active, Script to be run when the browser is unable to fetch the media data for whatever reason,  	Script to be run when fetching the media data is stopped before it is completely loaded for whatever reason, Script to be run when the playing position has changed (like when the user fast forwards to a different point in the media),  	Script to be run each time the volume of a video/audio has been changed, Script to be run when the media has paused but is expected to resume (like when the media pauses to buffer more data), Specifies if and how the author thinks the audio/video should be loaded when the page loads, Specifies the URL of the media file</td>
+       </tr>
+       <tr>
+         <td>defines multiple media resources for media elements (&lt;video&gt;,&lt;audio&gt; and &lt;picture&gt;)</td>
+         <td>&lt;source&gt;</td>
+         <td>media, sizes, src, srcset, type</td>
+         <td>Specifies what media/device the linked document is optimized for, Specifies the size of the linked resource, Specifies the URL of the media file,  	Specifies the URL of the image to use in different situations, Specifies the type of element</td>
+       </tr>
+       <tr>
+         <td>defines text tracks for media elements (&lt;video&gt; and &lt;audio&gt;</td>
+         <td>&lt;track&gt;</td>
+         <td>default, kind, label, oncuechange, onplay, src, srclang </td>
+         <td> 	Specifies that the track is to be enabled if the user's preferences do not indicate that another track would be more appropriate, Specifies the kind of text track, Specifies the title of the text track, Script to be run when the cue changes in a &lt;track&gt;, Script to be run when the media has started playing, Specifies the URL of the media file, Specifies the language of the track text data (required if kind="subtitles")  </td>
+       </tr>
+       <tr>
+         <td>defines a video or movie</td>
+         <td>&lt;video&gt;</td>
+         <td>autoplay,controls, height, hoop, muted, onabort, oncanplay, oncanplaythrough, onended, onerror, onloadeddata, onloadedmetadata, onloadstart, onpause, onplay, onplaying, onprogress, onratechange, onseeked, onseeking, onstalled, onsuspend, ontimeupdate, onvolumechange, onwaiting, poster, preload, src, width</td>
+         <td>Specifies that the audio/video will start playing as soon as it is ready, 	Specifies that audio/video controls should be displayed (such as a play/pause button etc), Specifies the height of the element, Specifies that the audio/video will start over again, every time it is finished,  	Specifies that the audio output of the video should be muted, Script to be run on abort,  Script to be run when a file is ready to start playing (when it has buffered enough to begin),  	Script to be run when a file can be played all the way to the end without pausing for buffering, Script to be run when the media has reach the end (a useful event for messages like "thanks for listening"), Script to be run when an error occurs, script to be run when media data is loaded, Script to be run when meta data (like dimensions and duration) are loaded, Script to be run just as the file begins to load before anything is actually loaded, Script to be run when the media is paused either by the user or programmatically,  	Script to be run when the media has started playing, Script to be run when the media has started playing, Script to be run when the browser is in the process of getting the media data, Script to be run each time the playback rate changes (like when a user switches to a slow motion or fast forward mode), Script to be run when the seeking attribute is set to false indicating that seeking has ended,  	Script to be run when the seeking attribute is set to true indicating that seeking is active, Script to be run when the browser is unable to fetch the media data for whatever reason,  	Script to be run when fetching the media data is stopped before it is completely loaded for whatever reason, Script to be run when the playing position has changed (like when the user fast forwards to a different point in the media),  	Script to be run each time the volume of a video/audio has been changed, Script to be run when the media has paused but is expected to resume (like when the media pauses to buffer more data), Specifies an image to be shown while the video is downloading, or until the user hits the play button, Specifies if and how the author thinks the audio/video should be loaded when the page loads, Specifies the URL of the media file, Specifies the width of the element</td>
+       </tr>
+       <tr>
+         <td>defines a hyperlink</td>
+         <td>&lt;a&gt;</td>
+         <td>download, href, hreflang, media, rel, target, type</td>
+         <td> 	Specifies that the target will be downloaded when a user clicks on the hyperlink, Specifies the URL of the page the link goes to, Specifies the language of the linked document, Specifies what media/device the linked document is optimized for, Specifies the relationship between the current document and the linked document,  	Specifies the target for where to open the linked document or where to submit the form, Specifies the type of element</td>
+       </tr>
+       <tr>
+         <td>defines the relationship betwenn a document and an external resource (most used to link to style sheets)</td>
+         <td>&lt;link&gt;</td>
+         <td>href, hreflang, media, onload, rel, sizes, type </td>
+         <td>Specifies the URL of the page the link goes to, Specifies the language of the linked document, Specifies what media/device the linked document is optimized for, Script to be run when the element is finished loading, Specifies the relationship between the current document and the linked document, Specifies the size of the linked resource, Specifies the type of element</td>
+       </tr>
+       <tr>
+         <td>defines navigation links</td>
+         <td>&lt;nav&lt;</td>
+         <td></td>
+         <td> </td>
+       </tr>
+       <tr>
+         <td>defines an unordered list</td>
+         <td>&lt;ul&gt;</td>
+         <td></td>
+         <td> </td>
+       </tr>
+       <tr>
+         <td>defines an ordered list</td>
+         <td>&lt;ol&gt;</td>
+         <td>reversed, start</td>
+         <td>Specifies that the list order should be descending (9,8,7...),  	Specifies the start value of an ordered list </td>
+       </tr>
+       <tr>
+         <td>defines a list item</td>
+         <td>&lt;;li&gt;</td>
+         <td>value</td>
+         <td>Specifies the value of the element</td>
+       </tr>
+       <tr>
+         <td>defines a directory list not supported in html5 use &lt;ul&gt; instead</td>
+         <td>&lt;dir&gt;</td>
+         <td></td>
+         <td> </td>
+       </tr>
+       <tr>
+         <td>defines a description list</td>
+         <td>&lt;dl&gt;</td>
+         <td></td>
+         <td> </td>
+       </tr>
+       <tr>
+         <td>defines a term/name in a description list</td>
+         <td>&lt;dl&gt;</td>
+         <td></td>
+         <td> </td>
+       </tr>
+       <tr>
+         <td>Defines a term/name in a description list</td>
+         <td>&lt;dt&gt;</td>
+         <td></td>
+         <td> </td>
+       </tr>
+       <tr>
+         <td>defines a description of a term/name in a description list</td>
+         <td>&lt;dd&gl;</td>
+         <td></td>
+         <td> </td>
+       </tr>
+       <tr>
+         <td>defines a table</td>
+         <td>&lt;table&gt;</td>
+         <td></td>
+         <td> </td>
+       </tr>
+       <tr>
+         <td>defines a table caption</td>
+         <td>&gt;caption&lt;</td>
+         <td></td>
+         <td> </td>
+       </tr>
+       <tr>
+         <td>defines a header cell in a table</td>
+         <td>&lt;th&gt;</td>
+         <td>colspan, headers, rowspan, scope</td>
+         <td>Specifies the number of columns a table cell should span, Defines a header cell in a table, Specifies the number of rows a table cell should span, Specifies whether a header cell is a header for a column, row, or group of columns or rows </td>
+       </tr>
+       <tr>
+         <td>defines a row in a table</td>
+         <td>&lt;tr&gt;</td>
+         <td></td>
+         <td> </td>
+       </tr>
+       <tr>
+         <td>defines a cell in a table</td>
+         <td>&lt;td&gt;</td>
+         <td>colspan, headers, rowspan </td>
+         <td>Specifies the number of columns a table cell should span, Defines a cell in a table, Specifies the number of rows a table cell should span </td>
+       </tr>
+       <tr>
+         <td>groups the header content in a table</td>
+         <td>&lt;thead&gt;</td>
+         <td></td>
+         <td> </td>
+       </tr>
+       <tr>
+         <td>groups the body content in a table</td>
+         <td>&lt;tbody&gt;</td>
+         <td></td>
+         <td> </td>
+       </tr>
+       <tr>
+         <td>groups the body content in a table</td>
+         <td>&lt;tfoot&gt;</td>
+         <td></td>
+         <td> </td>
+       </tr>
+       <tr>
+         <td>groups the footer content in a table</td>
+         <td>&lt;tfoot&gt;</td>
+         <td></td>
+         <td> </td>
+       </tr>
+       <tr>
+         <td>specifies column properties for each column within a &lt;colgroup&gt; element</td>
+         <td>&lt;col&gt;</td>
+         <td>span</td>
+         <td>  	Specifies the number of columns to span</td>
+       </tr>
+       <tr>
+         <td>specifies a group of one or more columns in a table for formatting</td>
+         <td>&lt;colgroup&gt;</td>
+         <td>span</td>
+         <td>  	Specifies the number of columns to span</td>
+       </tr>
+       <tr>
+         <td>defines style information for a document</td>
+         <td>&lt;style&gt;</td>
+         <td>media, onerror, onload, type</td>
+         <td>Specifies what media/device the linked document is optimized for, Script to be run when an error occurs, Script to be run when the element is finished loading, Specifies the type of element</td>       
+        </tr>
+       <tr>
+         <td>defines a section in a document</td>
+         <td>&lt;div&gt;</td>
+         <td>onblur, onchange</td>
+         <td> 	Script to be run when the element loses focus, Script to be run when the value of the element is changed</td>
+       </tr>
+       <tr>
+         <td>defines a section in a document </td>
+         <td>&lt;span&gt;</td>
+         <td>onblur, onchange</td>
+         <td> 	Script to be run when the element loses focus, Script to be run when the value of the element is changed</td>
+       </tr>
+       <tr>
+         <td>defines a header for a document or section</td>
+         <td>&lt;header&gt;</td>
+         <td>onblur, onchange</td>
+         <td> 	Script to be run when the element loses focus, Script to be run when the value of the element is changed</td>
+       </tr>
+       <tr>
+         <td>defines a footer for a document or section</td>
+         <td>&lt;footer&gt;</td>
+         <td>onblur, onchange</td>
+         <td> 	Script to be run when the element loses focus, Script to be run when the value of the element is changed</td>
+       </tr>
+       <tr>
+         <td>specifies the main content of a document</td>
+         <td>&lt;main&gt;</td>
+         <td>onblur, onchange</td>
+         <td> 	Script to be run when the element loses focus, Script to be run when the value of the element is changed</td>
+       </tr>
+       <tr>
+         <td>defines a section in a document</td>
+         <td>&lt;section&gt;</td>
+         <td>onblur, onchange</td>
+         <td> 	Script to be run when the element loses focus, Script to be run when the value of the element is changed</td>
+       </tr>
+       <tr>
+         <td>defines an article </td>
+         <td>&lt;article&gt;</td>
+         <td>onblur, onchange</td>
+         <td> 	Script to be run when the element loses focus, Script to be run when the value of the element is changed</td>
+       </tr>
+       <tr>
+         <td>defines content aside from the page content</td>
+         <td>&lt;aside&gt;</td>
+         <td>onblur, onchange</td>
+         <td> 	Script to be run when the element loses focus, Script to be run when the value of the element is changed</td>
+       </tr>
+       <tr>
+         <td>defines additional details that the user can view or hide</td>
+         <td>&lt;details&gt;</td>
+         <td>onblur, onchange,ontoggle, open</td>
+         <td> 	Script to be run when the element loses focus, Script to be run when the value of the element is changed, Script to be run when the user opens or closes the &lt;details&gt; element,  	Specifies that the details should be visible (open) to the user</td>
+       </tr>
+       <tr>
+         <td>defines a dialog box or window</td>
+         <td>&lt;dialog&gt;</td>
+         <td>onblur, onchange</td>
+         <td> 	Script to be run when the element loses focus, Script to be run when the value of the element is changed</td>
+       </tr>
+       <tr>
+         <td>defines a visible heading for &lt;details&lt; element </td>
+         <td>&lt;summary&gt;</td>
+         <td>onblur, onchange</td>
+         <td> 	Script to be run when the element loses focus, Script to be run when the value of the element is changed</td>
+       </tr>
+       <tr>
+         <td>adds a machine readable translation of a given content</td>
+         <td>&gt;data&lt;</td>
+         <td>onblur, onchange</td>
+         <td> 	Script to be run when the element loses focus, Script to be run when the value of the element is changed</td>
+       </tr>
+       <tr>
+         <td>defines information about the document</td>
+         <td>&lt;head&gt;</td>
+         <td>onblur, onchange</td>
+         <td> 	Script to be run when the element loses focus, Script to be run when the value of the element is changed</td>
+       </tr>
+       <tr>
+         <td>defines meta data about the document</td>
+         <td>&lt;meta&gt;</td>
+         <td>charset, content, http-equiv, name, onblur, onchange</td>
+         <td>Specifies the character encoding,Gives the value associated with the http-equiv or name attribute,  	Provides an HTTP header for the information/value of the content attribute, Specifies the name of the element,  	Script to be run when the element loses focus, Script to be run when the value of the element is changed</td>
+       </tr>
+       <tr>
+         <td>specifies the base URL/target for all relative URLs in a document</td>
+         <td>&lt;base&gt;</td>
+         <td>href, onblur, onchange, target</td>
+         <td>Specifies the URL of the page the link goes to,  	Script to be run when the element loses focus, Script to be run when the value of the element is changed,  	Specifies the target for where to open the linked document or where to submit the form</td>
+       </tr>
+       <tr>
+         <td>Specifies a default color, size, and font for all text in a document, Not supported in HTML5. Use CSS instead.</td>
+         <td>&lt;basefront&gt;</td>
+         <td>onblur, onchange</td>
+         <td> 	Script to be run when the element loses focus, Script to be run when the value of the element is changed</td>
+       </tr>
+      <tr>
+        <td>defines a client-side script</td>
+        <td>&lt;script&gt;</td>
+        <td>async, charset, defer, onblur, onchange, onerror, onload, src, type</td>
+        <td>Specifies that the script is executed asynchronously (only for external scripts), Specifies the character encoding,  	Specifies that the script is executed when the page has finished parsing (only for external scripts),  	Script to be run when the element loses focus, Script to be run when the value of the element is changed, Script to be run when an error occurs, Script to be run when the element is finished loading, Specifies the URL of the media file, Specifies the type of element</td>
+      </tr>
+      <tr>
+        <td>defines an alternate content for users that do not support client-side scripts</td>
+        <td>&lt;noscript&gt;</td>
+        <td>onblur, onchange</td>
+        <td> 	Script to be run when the element loses focus, Script to be run when the value of the element is changed</td>
+      </tr>
+      <tr>
+        <td>defines an embedded applet, not supported in html 5, use &lt;embed&gt; or &lt;embed&gt;</td>
+        <td>&lt;applet&gt;</td>
+        <td>onblur, onchange, width</td>
+        <td> 	Script to be run when the element loses focus, Script to be run when the value of the element is changed, Specifies the width of the element</td>
+      </tr>
+      <tr>
+        <td>defines a container for an external non-html application</td>
+        <td>&lt;embed&gt;</td>
+        <td>height, onabort, onblur, oncanplay, onchange, onerror, src, type</td>
+        <td>Specifies the height of the element, Script to be run on abort,  	Script to be run when the element loses focus, Script to be run when a file is ready to start playing (when it has buffered enough to begin), Script to be run when the value of the element is changed, Script to be run when an error occurs, Specifies the URL of the media file, Specifies the type of element</td>
+      </tr>
+      <tr>
+        <td>defines an embedded object</td>
+        <td>&lt;object&gt;</td>
+        <td>data, form, height, name, onabort, onblur, oncanplay, onchange, onerror, type, usemap, width</td>
+        <td> Specifies the URL of the resource to be used by the object,Specifies the name of the form the element belongs to, Specifies the height of the element, Specifies the name of the element, Script to be run on abort, Script to be run when a file is ready to start playing (when it has buffered enough to begin), Script to be run when the value of the element is changed, Script to be run when an error occurs, Specifies the type of element, Specifies an image as a client-side image map, Specifies the width of the element</td>
+      </tr>
+      <tr>
+        <td>defines a parameter for an object</td>
+        <td>&lt;param&gt;</td>
+        <td>name, onblur, onchange, value</td>
+        <td>Specifies the name of the element,  	Script to be run when the element loses focus, Script to be run when the value of the element is changed, Specifies the value of the element</td>
+      </tr>
+      </tbody>
+    </table>
+  </body>
+</html>
